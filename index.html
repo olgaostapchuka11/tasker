@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasker</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Today</h1>
+            <div class="dropdown">
+                <svg class="dropdown__img"  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.5 12C1.5 13.3807 2.61929 14.5 4 14.5C5.38071 14.5 6.5 13.3807 6.5 12C6.5 10.6193 5.38071 9.5 4 9.5C2.61929 9.5 1.5 10.6193 1.5 12ZM12 14.5C10.6193 14.5 9.5 13.3807 9.5 12C9.5 10.6193 10.6193 9.5 12 9.5C13.3807 9.5 14.5 10.6193 14.5 12C14.5 13.3807 13.3807 14.5 12 14.5ZM20 14.5C18.6193 14.5 17.5 13.3807 17.5 12C17.5 10.6193 18.6193 9.5 20 9.5C21.3807 9.5 22.5 10.6193 22.5 12C22.5 13.3807 21.3807 14.5 20 14.5Z" fill="#006CFF"/>
+                </svg>
+            </div>
+        </header>
+
+        <ul>
+            <li class="option">
+                <label class="checkbox__container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <div class="option__task-container">
+                    <div class="option__task">Start making a presentation</div>
+                    <div class="option__list" style="background:#61DEA4"></div>
+                </div>
+            </li>
+
+            <li class="option">
+                <label class="checkbox__container">
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+                <div class="option__task-container">
+                    <div class="option__task">Pay for rent
+                        <div class="option__task-time">
+                            <svg fill="none" width="12" height="12" viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
+                                <path d="m1.3536 2.8536 1.5-1.5c0.19527-0.19526 0.19527-0.51184 0-0.7071-0.19526-0.19526-0.51184-0.19526-0.7071 0l-1.5 1.5c-0.19526 0.19526-0.19526 0.51184 0 0.7071 0.19526 0.19527 0.51184 0.19527 0.7071 0zm9.7928-2.2071c0.1953-0.19526 0.5119-0.19526 0.7072 0l1.5 1.5c0.1952 0.19526 0.1952 0.51184 0 0.7071-0.1953 0.19527-0.5119 0.19527-0.7072 0l-1.5-1.5c-0.1952-0.19526-0.1952-0.51184 0-0.7071zm-4.1464 1.3536c-2.7614 0-5 2.2386-5 5 0 2.7615 2.2386 5 5 5 2.7615 0 5-2.2385 5-5 0-2.7614-2.2385-5-5-5zm-6 5c0-3.3137 2.6863-6 6-6 3.3137 0 6 2.6863 6 6 0 3.3137-2.6863 6-6 6-3.3137 0-6-2.6863-6-6zm6-3.5c0.27614 0 0.5 0.22386 0.5 0.5v2.5h1.5c0.27614 0 0.5 0.22386 0.5 0.5s-0.22386 0.5-0.5 0.5h-2c-0.27614 0-0.5-0.22386-0.5-0.5v-3c0-0.27614 0.22386-0.5 0.5-0.5z" clip-rule="evenodd" fill="#252A31" fill-rule="evenodd" opacity=".3"/>
+                                </svg>                            
+                            7:00 pm
+                        </div>
+                    </div>
+                    <div class="option__list" style="background:#B678FF"></div>
+                </div>
+            </li>
+
+            <li class="option">
+                <label class="checkbox__container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <div class="option__task-container">
+                    <div class="option__task">Buy a milk</div>
+                    <div class="option__list" style="background:#F45E6D"></div>
+                </div>
+            </li>
+
+            <li class="option">
+                <label class="checkbox__container">
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                </label>
+                <div class="option__task-container">
+                    <div class="option__task">Don't forget to pick up Mickael from school</div>
+                    <div class="option__list"></div>
+                </div>
+            </li>
+  
+            <li class="option">
+                <label class="checkbox__container">
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                </label>
+                <div class="option__task-container">
+                    <div class="option__task">Buy a chocolate for Charlotte</div>
+                    <div class="option__list" style="background:#F45E6D"></div>
+                </div>
+            </li>
+        </ul>
+
+        <h3>Lists</h3>
+        <ul class="lists">
+            <li class="lists__task" style="background:#EBEFF5">
+                <div class="lists__task-title lists__task-title-black">Inbox</div>
+                <div class="lists__task-number lists__task-number-black ">1 task</div>
+            </li>
+
+            <li class="lists__task" style="background:#61DEA4">
+                <div class="lists__task-title lists__task-title-white">Work</div>
+                <div class="lists__task-number lists__task-number-white">2 tasks</div>
+            </li>
+
+            <li class="lists__task" style="background:#F45E6D">
+                <div class="lists__task-title lists__task-title-white">Shopping</div>
+                <div class="lists__task-number lists__task-number-white">3 tasks</div>
+            </li>
+
+            <li class="lists__task" style="background:#FFE761">
+                <div class="lists__task-title lists__task-title-black">Family</div>
+                <div class="lists__task-number lists__task-number-black">1 task</div>
+            </li>
+
+            <li class="lists__task" style="background:#B678FF">
+                <div class="lists__task-title" style="color: #FFFFFF">Personal</div>
+                <div class="lists__task-number" style="color: #FFFFFF">4 tasks</div>
+            </li>
+        </ul>
+
+        <div class="add">
+            <svg class="add__button" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M10 6C10 7.10457 10.8954 8 12 8H17C17.5523 8 18 8.44771 18 9C18 9.55229 17.5523 10 17 10H12C10.8954 10 10 10.8954 10 12V17C10 17.5523 9.55229 18 9 18C8.44771 18 8 17.5523 8 17V12C8 10.8954 7.10457 10 6 10H1C0.447715 10 0 9.55229 0 9C0 8.44771 0.447715 8 1 8H6C7.10457 8 8 7.10457 8 6V1C8 0.447715 8.44771 0 9 0C9.55229 0 10 0.447715 10 1V6Z" fill="#006CFF"/>
+            </svg>
+        </div>
+    </div>
+</body>
+</html>
